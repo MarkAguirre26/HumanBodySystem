@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/txt_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Definition"
+        android:textAlignment="center"
+        android:textColor="#484848"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/txt_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="3dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textColor="#0059ff"
+        android:textAlignment="center"
+        android:text="www.humanbodyfacts.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mark.humanbody">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/favicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.mark.humanbody.MainActivity" />
+        <activity android:name="com.mark.humanbody.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mark.humanbody.QuizActivity" />
+        <activity android:name="com.mark.humanbody.ResultActivity" />
+        <activity android:name="com.mark.humanbody.CategoryActivity" />
+        <activity android:name="com.mark.humanbody.GalleryActivity" />
+        <activity android:name="com.mark.humanbody.FactActivity" />
+        <activity android:name="com.mark.humanbody.FactListActivity" />
+        <activity android:name="com.mark.humanbody.BodyDetailActivity" />
+        <activity android:name="com.mark.humanbody.QuizMenuActivity" />
+        <activity android:name="com.mark.humanbody.ZoomImageActivity" />
+        <activity android:name="com.mark.humanbody.SubcategoryActivity"/>
+        <activity android:name="com.mark.humanbody.AnswersActivity"/>
+    </application>
+
+</manifest>
